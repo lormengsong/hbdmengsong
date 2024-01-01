@@ -1,6 +1,8 @@
 $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
+	var audio = $('.song')[0];
+	audio.load();
 });
 $('document').ready(function(){
 		var vw;
