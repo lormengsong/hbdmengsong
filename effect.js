@@ -225,7 +225,7 @@ $('document').ready(function(){
         }, delay);
 		
     }
-	simulateButtonClick('#turn_on', 4000); // Example: Click the button with ID 'turn_on' after 5000 milliseconds
+	simulateButtonClick('#turn_on', 3000); // Example: Click the button with ID 'turn_on' after 5000 milliseconds
 	simulateButtonClick('#play', 15000); // Example: Click the button with ID 'play' after 6000 milliseconds
 	simulateButtonClick('#bannar_coming', 30000);
 	simulateButtonClick('#balloons_flying', 60000);
