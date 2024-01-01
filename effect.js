@@ -3,6 +3,9 @@ $(window).load(function(){
 	$('.container').fadeIn('fast');
 	var audio = $('.song')[0];
 	audio.load();
+	if (audio.paused) {
+        console.log('Audio is paused.');
+    }
 });
 $('document').ready(function(){
 		var vw;
